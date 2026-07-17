@@ -1,0 +1,26 @@
+TO SETUP THE ADMIN 
+FIRST GO TO YOUR THUNDERCLIENT THEN 
+CLICK ON NEW REQUEST 
+THEN CHANGE THE URL WITH THIS URL http://localhost:5000/api/auth/register
+
+THEN IN BODY GIVE THIS DATA
+{
+"name": "YourName",
+"email": "youremail",
+"password": "yourpassword",
+"role": "admin
+}
+then hit send btn
+
+now it will give you a code on your email. COPY THAT CODE AND THEN 
+
+CHANGE THE ROUTE TO http://localhost:5000/api/auth/verify-email
+
+THEN IN BODY GVIE THIS DATA
+{
+"email": "youremail",
+"code": "paste your code"
+}
+
+NOW YOU CAN LOGIN AS ADMIN FROM THE SITE.
+STILL FACING AN ISSUE GO TO THIS YOUTUBE VIDEO WATCH FROM 1:03:20 YOU WILL GET TO KNOW WHAT TO DO.
