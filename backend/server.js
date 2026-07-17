@@ -26,7 +26,7 @@ connectDB();
 
 //middlewares
 const allowedOrigins = [
-  "https://real-estate-end-to-end-platform.vercel.app/",
+  process.env.FRONTEND_URL,
 ].filter(Boolean);
 
 app.use(
